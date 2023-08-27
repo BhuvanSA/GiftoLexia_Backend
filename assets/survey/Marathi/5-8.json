@@ -1,0 +1,318 @@
+{
+    "intro": [ "डिस्लेक्सियाची व्याख्या अनेकदा एखाद्या व्यक्तीच्या कालक्रमानुसार वाचण्यात येणारी अनपेक्षित अडचण म्हणून केली जाते.काही सामान्य संकेत खाली सूचीबद्ध आहेत.",
+                "कृपया सर्व प्रश्नांची उत्तरे द्या. हे डिस्लेक्सियाशी संबंधित असू शकतात जर ते व्यक्तीचे वय, शैक्षणिक पातळी किंवा संज्ञानात्मक क्षमतांसाठी अनपेक्षित असतील.",
+                "यापैकी अनेक वारंवार आढळल्यास आणि मुलाचे गुण ९० च्या वर असल्यास, आम्ही तुम्हाला सल्लागाराकडून माहिती घेण्याची विनंती करतो.",
+                "<b> कृपया डिस्लेक्सिया असलेल्या मुलांची अद्वितीय शक्ती वाचा </b>"
+            ],	
+"strengths": [
+                "उत्कृष्ट विचार कौशल्य: संकल्पना, तर्क, कल्पना, अमूर्तता",
+                "स्मरणात ठेवण्याऐवजी अर्थाच्या माध्यमातून उत्तम प्रकारे साध्य होणारे शिक्षण",
+                "मोठे चित्र मिळविण्याची क्षमता",
+                "त्याला काय वाचले जाते याची उच्च पातळीची समज",
+                "स्वारस्य असलेले क्षेत्र म्हणून सुधारणा अधिक विशेष आणि केंद्रित होते",
+                "एक आश्चर्यकारकपणे परिष्कृत ऐकण्याची शब्दसंग्रह",
+                "गणित, संगणक आणि व्हिज्युअल आर्ट्स यांसारख्या वाचनावर अवलंबून नसलेल्या क्षेत्रात किंवा तत्त्वज्ञान,",
+                "जीवशास्त्र, सामाजिक अभ्यास, न्यूरोसायन्स आणि सर्जनशील लेखन यासह अधिक वैचारिक (विरुध्द वस्तुस्थितीवर आधारित) विषयांमध्ये उत्कृष्टता."
+            ],
+"questions":[
+            {
+                "order": 1,
+                "qid":1,
+                "title": "अक्षर-ध्वनी संबंध",
+                "question": "मुलाला अक्षर/ध्वनी संबंध शिकणे कठीण जाते",
+                "description": "",
+                "name": "options_q0",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 2,
+                "qid":2,
+                "title": "समान आकार/ध्वनी",
+                "question": "मूल अक्षरे किंवा शब्दांना समान आकार किंवा ध्वनी गोंधळात टाकते",
+                "description": "",
+                "name": "options_q1",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 3,
+                "qid":3,
+                "title": "साधे शब्द काढा",
+                "question": "मुलाला साधे शब्द बोलणे कठीण जाते",
+                "description": "",
+                "name": "options_q2",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 4,
+                "qid":4,
+                "title": "वगळणे",
+                "question": " मूल शब्द, अक्षरे आणि संख्या उलट, टाकू किंवा वगळू शकते",
+                "description": "",
+                "name": "options_q3",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 5,
+                "qid":5,
+                "title": "साधे शब्दलेखन",
+                "question": "मुलाला अगदी सोप्या नियमित शब्दांचे स्पेलिंग करण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q4",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 6,
+                "qid":6,
+                "title": "गोंधळ घालणारा क्रम",
+                "question": "मूल अक्षरे आणि शब्दांच्या क्रमाने गोंधळ करू शकते",
+                "description": "",
+                "name": "options_q5",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 7,
+                "qid":7,
+                "title": "वाचन स्थिती सतत गमावणे",
+                "question": "वाचताना मूल जागा हरवत राहते",
+                "description": "",
+                "name": "options_q6",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 8,
+                "qid":8,
+                "title": "",
+                "question": "मजकूर वाचताना मूल दृश्य अस्वस्थतेचे वर्णन करू शकते",
+                "description": "",
+                "name": "options_q7",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 9,
+                "qid":9,
+                "title": "संथ वाचन/लेखन",
+                "question": " मूल लिखित काम खूप हळू वाचू शकते आणि करू शकते",
+                "description": "",
+                "name": "options_q8",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 10,
+                "qid":10,
+                "title": "शब्द उच्चारण्यात अडचण",
+                "question": "मुलाला लांब सामान्य शब्द उच्चारण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q9",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 11,
+                "qid":11,
+                "title": "यमक आणि आवाज",
+                "question": "मुलाला शब्दांमधील यमक आणि आवाज ऐकण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q10",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 12,
+                "qid":12,
+                "title": "लेखन कौशल्य",
+                "question": "मुलाचे अंतर कमी, खराब रचना, मोठे अस्पष्ट किंवा लहान जड इंडेंट केलेले लिखाण असू शकते कधी कधी नेहमी नाही",
+                "description": "",
+                "name": "options_q11",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 13,
+                "qid":13,
+                "title": "स्मरण करणे",
+                "question": " पुरेशा समर्थित-शालेय सराव असूनही मुलाला लक्षात ठेवण्यात (विशेषत: संख्या कामात) अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q12",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 14,
+                "qid":14,
+                "title": "वेळ सांगतो आहे",
+                "question": "वेळ सांगण्यास मूल शिकण्यास मंद असू शकते",
+                "description": "",
+                "name": "options_q13",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 15,
+                "qid":15,
+                "title": "जोडे बांधणे",
+                "question": "मुलाला बुटाच्या लेस बांधण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q14",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 16,
+                "qid":16,
+                "title": "बाजू आणि दिशा",
+                "question": "मूल अनेकदा डावीकडे/उजवीकडे आणि वर/खाली गोंधळ करू शकते",
+                "description": "",
+                "name": "options_q15",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 17,
+                "qid":17,
+                "title": "वर्णमाला/महिन्यांचा क्रम",
+                "question": "मुलाला अक्षरे, महिने आणि दिवस क्रमाने शिकण्यात अडचणी येतात",
+                "description": "",
+                "name": "options_q16",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 18,
+                "qid":18,
+                "title": "भाषण आणि भाषा विकास",
+                "question": "मुलाचे भाषण आणि भाषा विकासास विलंब होऊ शकतो",
+                "description": "",
+                "name": "options_q17",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 19,
+                "qid":19,
+                "title": "मजकूर कॉपी करत आहे",
+                "question": "मुलाला बोर्डमधून कॉपी करण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q18",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 20,
+                "qid":20,
+                "title": "तोंडी सूचना",
+                "question": "मुलाला तोंडी सूचना किंवा अधिक सामान्यपणे, अनेक तोंडी सूचना पूर्ण करण्यात अडचण येऊ शकते",
+                "description": "",
+                "name": "options_q19",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 21,
+                "qid":21,
+                "title": "गोष्टी विसरा/हरवा",
+                "question": "मुलाची आयोजन करण्याची क्षमता कमी असू शकते - गोष्टी गमावणे आणि विसरणे",
+                "description": "",
+                "name": "options_q20",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 22,
+                "qid":22,
+                "title": "खोलीची जाणीव",
+                "question": "मुलाचे समन्वय आणि खोलीचे आकलन कमी असू शकते - गोष्टींकडे वळणे आणि अडखळणे",
+                "description": "",
+                "name": "options_q21",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 23,
+                "qid":23,
+                "title": "सहज विचलित",
+                "question": "मूल सहजपणे विचलित होऊ शकते",
+                "description": "",
+                "name": "options_q22",
+                "options": [ {"optid": 1, "label": "कधीही नाही"},
+                             {"optid": 2, "label": "कधी कधी"},
+                             {"optid": 3, "label": "अनेकदा"}
+                           ],
+                "helptext": "help text"
+            }
+]
+}

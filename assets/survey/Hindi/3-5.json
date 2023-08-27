@@ -1,0 +1,505 @@
+{
+"intro": ["Dyslexia is often defined as an unexpected difficulty in reading for an individuals chronological age",
+	     "Some general indications are listed below. Please answer all the questions. These may be associated with dyslexia if they are unexpected for the individuals age, educational level, or cognitive abilities.",
+	     "If many of these are observed frequently and the childs score is above 90, we request you to seek inputs from a counsellor.",
+	     "Please read through the unique strengths of children with dyslexia"
+	     ],
+"strengths": [
+	"Curiosity",
+    "Great imagination",
+    "Ability to figure things out; gets the gist of things",
+    "Eager to embrace new ideas",
+    "A good understanding of new concepts",
+    "A larger vocabulary than typical for age group",
+    "Enjoys solving puzzles",
+    "Talent for building models",
+    "Good at problem solving",
+    "Excellent comprehension of stories read or told to him",
+    "Empathetic to the needs or feelings of others"
+],
+"questions": [
+	{
+		"order": 1,
+		"qid": 1,
+		"title": "Language and pronunciation",
+		"question": "The child’s  language and pronunciation are  not well developed",
+		"description": "",
+		"name": "options_q0",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 2,
+		"qid": 2,
+		"title": "Letter names and order",
+		"question": "The child has difficulty with letter names and order of letters",
+		"description": "",
+		"name": "options_q1",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 3,
+		"qid": 3,
+		"title": "Phonological awareness",
+		"question": "The child may not have age-appropriate  phonological awareness",
+		"description": "",
+		"name": "options_q2",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 4,
+		"qid": 4,
+		"title": "Separation and belnding of sounds",
+		"question": "The child often has difficulty separating sounds in words and blending sounds to make words",
+		"description": "",
+		"name": "options_q3",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 5,
+		"qid": 5,
+		"title": "Rhyming words",
+		"question": "The child finds difficulty with  rhyming words",
+		"description": "",
+		"name": "options_q4",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 6,
+		"qid": 6,
+		"title": "Speech pattern",
+		"question": "The child is slow to develop speech and shows immature speech pattern and communication",
+		"description": "",
+		"name": "options_q5",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 7,
+		"qid": 7,
+		"title": "Multi syllable words",
+		"question": "The child has difficulty in pronouncing long multi syllabic words",
+		"description": "",
+		"name": "options_q6",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 8,
+		"qid": 8,
+		"title": "Drawing",
+		"question": "The child has difficulty with drawing, copying and letter formation",
+		"description": "",
+		"name": "options_q7",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 9,
+		"qid": 9,
+		"title": "Numbers, colours, shapes, spelling",
+		"question": "The child faces difficulty in learning, numbers, days of the week, colours, shapes and  how to spell and write his or her name",
+		"description": "",
+		"name": "options_q8",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 10,
+		"qid": 10,
+		"title": "Narrating stories",
+		"question": "The child may have difficulty telling and/or retelling a story in the correct sequence",
+		"description": "",
+		"name": "options_q9",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 11,
+		"qid": 11,
+		"title": "Forgetfulness",
+		"question": "The child often forgets  rhymes, stories, events, instructions etc.",
+		"description": "",
+		"name": "options_q10",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 12,
+		"qid": 12,
+		"title": "Using right words",
+		"question": "The child finds it difficult to recall the right word to describe things",
+		"description": "",
+		"name": "options_q11",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 13,
+		"qid": 13,
+		"title": "Following rhythm",
+		"question": "The child cannot clap a rhythm or keep a musical beat",
+		"description": "",
+		"name": "options_q12",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 14,
+		"qid": 14,
+		"title": "Easily distracted",
+		"question": "The child gets easily distracted",
+		"description": "",
+		"name": "options_q13",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 15,
+		"qid": 15,
+		"title": "Spatial concepts",
+		"question": "The child has difficulty understanding spatial concepts",
+		"description": "",
+		"name": "options_q14",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 16,
+		"qid": 16,
+		"title": "Buttoning and tying shoe laces",
+		"question": "The child may face difficulty in getting dressed, in buttoning and in tying shoe laces",
+		"description": "",
+		"name": "options_q15",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 17,
+		"qid": 17,
+		"title": "Dominant hand",
+		"question": "The child has not established a dominant hand",
+		"description": "",
+		"name": "options_q16",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 18,
+		"qid": 18,
+		"title": "Balance and co-ordination",
+		"question": "The child has poor balance and co-ordination",
+		"description": "",
+		"name": "options_q17",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 19,
+		"qid": 19,
+		"title": "Concept of time",
+		"question": "The child does not have a well-developed concept of time",
+		"description": "",
+		"name": "options_q18",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 20,
+		"qid": 20,
+		"title": "Social Skills",
+		"question": "The child has limited social skills",
+		"description": "",
+		"name": "options_q19",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	},
+	{
+		"order": 21,
+		"qid": 21,
+		"title": "Multi-step instructions",
+		"question": "The child has difficulty in following multi step instructions",
+		"description": "",
+		"name": "options_q20",
+		"options": [
+			{
+				"optid": 1,
+				"label": "Never"
+			},
+			{
+				"optid": 2,
+				"label": "Sometimes"
+			},
+			{
+				"optid": 3,
+				"label": "Often"
+			}
+		],
+		"helptext": "help text"
+	}
+]
+}

@@ -1,0 +1,301 @@
+{
+    "intro": [ "ਡਿਸਲੈਕਸੀਆ ਨੂੰ ਅਕਸਰ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਕਾਲਕ੍ਰਮਿਕ ਉਮਰ ਲਈ ਪੜ੍ਹਨ ਵਿੱਚ ਅਚਾਨਕ ਮੁਸ਼ਕਲ ਵਜੋਂ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ. ਕੁਝ ਆਮ ਸੰਕੇਤ ਹੇਠਾਂ ਦਿੱਤੇ ਗਏ ਹਨ।",
+                "ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿਓ। ਇਹ ਡਿਸਲੈਕਸੀਆ ਨਾਲ ਜੁੜੇ ਹੋ ਸਕਦੇ ਹਨ ਜੇਕਰ ਇਹ ਵਿਅਕਤੀ ਦੀ ਉਮਰ, ਵਿਦਿਅਕ ਪੱਧਰ, ਜਾਂ ਬੋਧਾਤਮਕ ਯੋਗਤਾਵਾਂ ਲਈ ਅਚਾਨਕ ਹਨ।",
+                "ਜੇਕਰ ਇਹਨਾਂ ਵਿੱਚੋਂ ਬਹੁਤਿਆਂ ਨੂੰ ਅਕਸਰ ਦੇਖਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਬੱਚੇ ਦਾ ਸਕੋਰ 90 ਤੋਂ ਉੱਪਰ ਹੈ, ਤਾਂ ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਲਾਹਕਾਰ ਤੋਂ ਜਾਣਕਾਰੀ ਲੈਣ ਦੀ ਬੇਨਤੀ ਕਰਦੇ ਹਾਂ।",
+                "<b> ਕਿਰਪਾ ਕਰਕੇ ਡਿਸਲੈਕਸੀਆ ਵਾਲੇ ਬੱਚਿਆਂ ਦੀਆਂ ਵਿਲੱਖਣ ਸ਼ਕਤੀਆਂ ਨੂੰ ਪੜ੍ਹੋ </b>"
+            ],	
+"strengths": [
+                "ਸਿੱਖਣ ਦੀ ਉੱਚ ਸਮਰੱਥਾ ਹੈ",
+                "ਬਹੁ-ਚੋਣ ਪ੍ਰੀਖਿਆਵਾਂ ਤੇ ਵਾਧੂ ਸਮਾਂ ਦਿੱਤੇ ਜਾਣ ਤੇ ਧਿਆਨ ਦੇਣ ਯੋਗ ਸੁਧਾਰ ਦਿਖਾਉਂਦਾ ਹੈ",
+                "ਉੱਚਿਤ ਵਿਸ਼ੇਸ਼ ਖੇਤਰ ਤੇ ਕੇਂਦ੍ਰਿਤ ਹੋਣ ਤੇ ਉੱਤਮਤਾ ਦਾ ਪ੍ਰਦਰਸ਼ਨ ਕਰਦਾ ਹੈ,",
+                "ਵਿਚਾਰਾਂ ਅਤੇ ਭਾਵਨਾਵਾਂ ਨੂੰ ਜ਼ਾਹਰ ਕਰਦੇ ਸਮੇਂ ਬਹੁਤ ਜ਼ਿਆਦਾ ਸਪਸ਼ਟੀਕਰਨ ਦਿਓ",
+                "ਬੇਮਿਸਾਲ ਹਮਦਰਦੀ ਅਤੇ ਨਿੱਘ",
+                "ਰੋਟ ਮੈਮੋਰੀ ਤੇ ਨਿਰਭਰ ਨਾ ਹੋਣ ਵਾਲੇ ਖੇਤਰਾਂ ਵਿੱਚ ਸਫਲ",
+                "ਉੱਚ-ਪੱਧਰੀ ਸੰਕਲਪ ਲਈ ਇੱਕ ਪ੍ਰਤਿਭਾ ਅਤੇ ਅਸਲ ਸੂਝ ਦੇ ਨਾਲ ਆਉਣ ਦੀ ਯੋਗਤਾ",
+                "ਡੱਬੇ ਤੋਂ ਬਾਹਰ ਸੋਚਣ ਅਤੇ ਵੱਡੀ ਤਸਵੀਰ ਦੇਖਣ ਦਾ ਝੁਕਾਅ",
+                "ਧਿਆਨ ਨਾਲ ਲਚਕਦਾਰ ਅਤੇ ਅਨੁਕੂਲ ਹੋਣ ਦੇ ਯੋਗ"
+            ],
+"questions":[
+            {
+                "order": 1,
+                "qid":1,
+                "title": "ਪੜ੍ਹਨ ਵਿੱਚ ਮੁਸ਼ਕਲ",
+                "question": "ਬੱਚੇ ਨੂੰ ਪੜ੍ਹਨ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਉਂਦੀ ਹੈ",
+                "description": "",
+                "name": "options_q0",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 2,
+                "qid":2,
+                "title": "ਪੜ੍ਹਨ ਵਿੱਚ ਮੁਸ਼ਕਲ",
+                "question": "ਬੱਚਾ ਢੁਕਵੀਂ ਪਰ ਹੌਲੀ-ਹੌਲੀ ਪੜ੍ਹਦਾ ਹੈ, ਲਾਪਰਵਾਹੀ ਨਾਲ ਗਲਤੀਆਂ ਕਰਦਾ ਹੈ, ਅਤੇ ਲੰਮੀ ਪੜ੍ਹਨ ਦੀਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚ ਥੱਕ ਜਾਂਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q1",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 3,
+                "qid":3,
+                "title": "ਸਪੈਲਿੰਗ ਮੁਸ਼ਕਲ",
+                "question": "ਬੱਚੇ ਨੂੰ ਸਪੈਲਿੰਗ ਦੀਆਂ ਕਾਫ਼ੀ ਮੁਸ਼ਕਲਾਂ ਹਨ",
+                "description": "",
+                "name": "options_q2",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 4,
+                "qid":4,
+                "title": "ਟੈਕਸਟ ਕਾਪੀ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+                "question": "ਬੱਚੇ ਨੂੰ ਬਲੈਕਬੋਰਡ ਜਾਂ ਕਿਤਾਬ ਵਿੱਚੋਂ ਸਹੀ ਕਾਪੀ ਕਰਨ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਉਂਦੀ ਹੈ",
+                "description": "",
+                "name": "options_q3",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 5,
+                "qid":5,
+                "title": "ਬੁਨਿਆਦੀ ਸ਼ਬਦਾਵਲੀ",
+                "question": "ਬੱਚਾ ਆਮ ਮੁੱਖ ਸ਼ਬਦਾਂ ਦਾ ਇੱਕ ਕੋਰ ਇਕੱਠਾ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ ਹੈ",
+                "description": "",
+                "name": "options_q4",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 6,
+                "qid":6,
+                "title": "ਉਲਝਣ ਵਾਲਾ ਆਰਡਰ ਅਤੇ ਸ਼ਕਲ",
+                "question": "ਬੱਚਾ ਅਜੇ ਵੀ ਪੜ੍ਹਨ ਅਤੇ ਲਿਖਣ ਵਿੱਚ b/d ਜਾਂ ਕੀ ਸੀ/ਦੇਖਿਆ ਹੈ ਉਲਝਣ ਵਿੱਚ ਹੈ",
+                "description": "",
+                "name": "options_q5",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 7,
+                "qid":7,
+                "title": "ਆਮ ਲੰਬੇ ਸ਼ਬਦਾਂ ਦਾ ਉਚਾਰਨ ਕਰਨਾ",
+                "question": "ਬੱਚੇ ਨੂੰ ਲੰਬੇ ਆਮ ਸ਼ਬਦਾਂ ਦਾ ਉਚਾਰਨ ਕਰਨ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਉਂਦੀ ਹੈ",
+                "description": "",
+                "name": "options_q6",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 8,
+                "qid":8,
+                "title": "ਹੌਲੀ ਲਿਖਤ",
+                "question": "ਬੱਚਾ ਲਿਖਤੀ ਕੰਮ ਬਹੁਤ ਹੌਲੀ-ਹੌਲੀ ਕਰਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q7",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 9,
+                "qid":9,
+                "title": "ਗੁੰਮ ਧੁਨੀਆਂ/ਉਚਾਰਖੰਡ",
+                "question": "ਬੱਚਾ ਸ਼ਬਦਾਂ, ਬੋਲੇ ​​ਗਏ ਅਤੇ/ਜਾਂ ਲਿਖਤੀ ਰੂਪ ਵਿੱਚ ਆਵਾਜ਼ਾਂ ਜਾਂ ਉਚਾਰਖੰਡਾਂ ਨੂੰ ਗੁਆ ਸਕਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q8",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 10,
+                "qid":10,
+                "title": "ਯਾਦ ਕਰਨਾ",
+                "question": "ਬੱਚੇ ਨੂੰ ਨੰਬਰ ਬਾਂਡ ਅਤੇ ਟੇਬਲ ਯਾਦ ਰੱਖਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਉਂਦੀ ਹੈ",
+                "description": "",
+                "name": "options_q9",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 11,
+                "qid":11,
+                "title": "ਉਲਟਾ ਕ੍ਰਮ",
+                "question": "ਬੱਚਾ ਸੰਖਿਆਵਾਂ ਨੂੰ ਉਲਟਾ ਸਕਦਾ ਹੈ, ਉਦਾਹਰਨ ਲਈ, 36 ਅਤੇ 63",
+                "description": "",
+                "name": "options_q10",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 12,
+                "qid":12,
+                "title": "ਦਿਸ਼ਾਵਾਂ ਅਤੇ ਪਾਸੇ",
+                "question": "ਬੱਚਾ ਖੱਬੇ/ਸੱਜੇ ਅਤੇ ਉੱਪਰ/ਹੇਠਾਂ ਨੂੰ ਉਲਝਾਉਂਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q11",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 13,
+                "qid":13,
+                "title": "ਕ੍ਰਮ/ਕ੍ਰਮ",
+                "question": "ਬੱਚੇ ਨੂੰ ਦਿਨਾਂ, ਮਹੀਨਿਆਂ ਅਤੇ ਦੇ ਕ੍ਰਮ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆਉਂਦੀ ਹੈ ਵਰਣਮਾਲਾ ਦੇ ਅੱਖਰਾਂ ਦਾ ਕ੍ਰਮ",
+                "description": "",
+                "name": "options_q12",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 14,
+                "qid":14,
+                "title": "ਹੱਥ ਲਿਖਤ",
+                "question": "ਬੱਚੇ ਦੀ ਮਾੜੀ ਰਚਨਾ ਹੈ, ਮਾੜੀ ਦੂਰੀ ਵਾਲੀ ਅਢੁੱਕਵੀਂ ਲਿਖਤ",
+                "description": "",
+                "name": "options_q13",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 15,
+                "qid":15,
+                "title": "ਮੌਖਿਕ ਨਿਰਦੇਸ਼",
+                "question": "ਬੱਚੇ ਨੂੰ ਮੌਖਿਕ ਹਿਦਾਇਤਾਂ ਯਾਦ ਰੱਖਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੁੰਦੀ ਹੈ",
+                "description": "",
+                "name": "options_q14",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 16,
+                "qid":16,
+                "title": "ਉਲਝਣ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ",
+                "question": "ਬੱਚਾ ਉਲਝਣ ਵਿੱਚ ਦਿਖਾਈ ਦੇ ਸਕਦਾ ਹੈ ਅਤੇ ਪਾਠ ਦੇ ਕੁਝ ਹਿੱਸਿਆਂ &#39;ਤੇ ਕਾਰਵਾਈ ਕਰ ਸਕਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q15",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 17,
+                "qid":17,
+                "title": "ਲਿਖਤੀ ਕੰਮ",
+                "question": "ਬੱਚਾ ਜ਼ਬਾਨੀ ਚੰਗਾ ਹੈ ਪਰ ਲਿਖਤੀ ਕੰਮ ਨਾਕਾਫ਼ੀ ਹੈ",
+                "description": "",
+                "name": "options_q16",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 18,
+                "qid":18,
+                "title": "ਭੁੱਲਣਾ",
+                "question": "ਬੱਚੇ ਦੀ ਮਾੜੀ ਸੰਸਥਾ ਅਤੇ ਪੇਸ਼ਕਾਰੀ ਹੈ; ਕਿਤਾਬਾਂ ਅਤੇ ਹੋਮਵਰਕ ਨੂੰ ਭੁੱਲ ਜਾਂਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q17",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 19,
+                "qid":19,
+                "title": "ਲਿਖਣ ਦੇ ਹੁਨਰ",
+                "question": "ਬੱਚਾ ਲੇਖਾਂ ਵਿੱਚ ਵੇਰਵੇ ਨਹੀਂ ਜੋੜ ਸਕਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q18",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 20,
+                "qid":20,
+                "title": "ਪੜ੍ਹਨਾ",
+                "question": "ਬੱਚੇ ਨੂੰ ਪੜ੍ਹਨ ਵਿਚ ਮਜ਼ਾ ਨਹੀਂ ਆਉਂਦਾ, ਖਾਸ ਕਰਕੇ ਉੱਚੀ ਆਵਾਜ਼ ਵਿਚ ਪੜ੍ਹਨਾ ਪਸੰਦ ਨਹੀਂ ਕਰਦਾ",
+                "description": "",
+                "name": "options_q19",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            },
+            {
+                "order": 21,
+                "qid":21,
+                "title": "ਆਸਾਨੀ ਨਾਲ ਧਿਆਨ ਭਟਕਾਇਆ",
+                "question": "ਬੱਚਾ ਆਸਾਨੀ ਨਾਲ ਵਿਚਲਿਤ ਹੋ ਸਕਦਾ ਹੈ",
+                "description": "",
+                "name": "options_q20",
+                "options": [ {"optid": 1, "label": "ਕਦੇ ਨਹੀਂ"},
+                             {"optid": 2, "label": "ਕਦੇ ਕਦੇ"},
+                             {"optid": 3, "label": "ਬਹੁਤ ਵਾਰ"}
+                           ],
+                "helptext": "help text"
+            }
+]
+}
+
+
+
+
+
+
+
+

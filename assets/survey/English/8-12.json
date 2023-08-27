@@ -1,0 +1,312 @@
+{
+"intro": ["Dyslexia is often defined as an unexpected difficulty in reading, for an individuals chronological age. Some general indications are listed below.",
+             "Please answer all the questions. These may be associated with dyslexia if they are unexpected for the individual's age, educational level, or cognitive abilities. ",
+             "If many of these are observed frequently and the childs score is above 90, we request you to seek inputs from a counsellor",
+             "<b>Please read through the unique strengths of children with dyslexia</b>"
+             ],	
+"strengths": [
+	"Has a high capacity to learn",
+	"Shows noticeable improvement when given additional time on multiple-choice examinations",
+	"Demonstrates excellence when focused on a highly specialized area",
+	"Highly articulate when expressing ideas and feelings",
+	"Exceptional empathy and warmth",
+	"Successful in areas not dependent on rote memory",
+	"A talent for high-level conceptualization and the ability to come up with original insights",
+	"Inclination to think outside of the box and see the big picture",
+	"Noticeably resilient and able to adapt"
+],
+"questions":[
+	{
+	"order": 1,
+	"qid":1,
+	"title": "Reading difficulty",
+	"question": "The child has difficulty with reading",
+	"description": "",
+	"name": "options_q0",
+	"options": [ {"optid": 1, "label": "Never"},
+	             {"optid": 2, "label": "Sometimes"},
+	             {"optid": 3, "label": "Often"}
+		       ],
+	"helptext": "help text"
+	},
+	{
+	"order": 2,
+	"qid":2,
+	"title": "Reading difficulty",
+	"question": "The child reads adequately but slowly, making careless errors, and gets tired in extended reading situations",
+	"description": "",
+	"name": "options_q1",
+	"options": [ {"optid": 1, "label": "Never"},
+	             {"optid": 2, "label": "Sometimes"},
+	             {"optid": 3, "label": "Often"}
+		       ],
+	"helptext": "help text"
+	},
+	{
+		"order": 3,
+		"qid": 3,
+		"title": "Spelling difficulty",
+		"question": "The child has considerable spelling difficulties",
+		"description": "",
+		"name": "options_q2",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+	},
+    {
+		"order": 4,
+		"qid": 4,
+		"title": "Copying text",
+		"question": "The child has difficulty copying accurately from the blackboard or a book",
+		"description": "",
+		"name": "options_q3",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+    {
+		"order": 5,
+		"qid": 5,
+		"title": "Basic vocabulary",
+		"question": "The child has failed to accumulate a core of common key words",
+		"description": "",
+		"name": "options_q4",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+  {
+		"order": 6,
+		"qid": 6,
+		"title": "Confusing order and shape",
+		"question": "The child still confuses b/d or was/saw in reading and writing",
+		"description": "",
+		"name": "options_q5",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 7,
+		"qid": 7,
+		"title": "Pronouncing common long words",
+		"question": "The child has  difficulty pronouncing longer common words",
+		"description": "",
+		"name": "options_q6",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 8,
+		"qid": 8,
+		"title": "Slow writing",
+		"question": "The child does written work very slowly",
+		"description": "",
+		"name": "options_q7",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 9,
+		"qid": 9,
+		"title": "Missing sounds/syllables",
+		"question": "The child may miss out sounds or syllables in words, spoken and/or written",
+		"description": "",
+		"name": "options_q8",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 10,
+		"qid": 10,
+		"title": "Memorising",
+		"question": "The child has difficulty memorising number bonds and tables",
+		"description": "",
+		"name": "options_q9",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 11,
+		"qid": 11,
+		"title": "Reversing order",
+		"question": "The child may reverse numbers, e.g., 36 and 63",
+		"description": "",
+		"name": "options_q10",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 12,
+		"qid": 12,
+		"title": "Directions and sides",
+		"question": "The child confuses left/right and up/down",
+		"description": "",
+		"name": "options_q11",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 13,
+		"qid": 13,
+		"title": "Sequence/Order",
+		"question": "The child has difficulty with the sequence of days, months and the order of letters of the alphabet",
+		"description": "",
+		"name": "options_q12",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 14,
+		"qid": 14,
+		"title": "Handwriting",
+		"question": "The child has poorly formed, poorly spaced immature handwriting",
+		"description": "",
+		"name": "options_q13",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 15,
+		"qid": 15,
+		"title": "Oral instructions",
+		"question": "The child has difficulty remembering oral instructions",
+		"description": "",
+		"name": "options_q14",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 16,
+		"qid": 16,
+		"title": "Appear confused",
+		"question": "The child may appear confused and may process only parts of the lesson",
+		"description": "",
+		"name": "options_q15",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 17,
+		"qid": 17,
+		"title": "Written work",
+		"question": "The child is good orally but written work is inadequate ",
+		"description": "",
+		"name": "options_q16",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 18,
+		"qid": 18,
+		"title": "Forgetfulness",
+		"question": "The child has poor organisation and presentation; forgets books and homework",
+		"description": "",
+		"name": "options_q17",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 19,
+		"qid": 19,
+		"title": "Writing skills",
+		"question": "The child may not add detail to essays",
+		"description": "",
+		"name": "options_q18",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 20,
+		"qid": 20,
+		"title": "Reading",
+		"question": "The child does not enjoy reading, especially dislikes reading aloud",
+		"description": "",
+		"name": "options_q19",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    },
+   {
+		"order": 21,
+		"qid": 21,
+		"title": "Distracted easily",
+		"question": "The child may get easily distracted",
+		"description": "",
+		"name": "options_q20",
+		"options": [
+				{"optid": 1,"label": "Never"},
+				{"optid": 2, "label": "Sometimes"},
+				 {"optid": 3, "label": "Often"}
+					],
+		"helptext": "help text"
+    }
+]
+}
