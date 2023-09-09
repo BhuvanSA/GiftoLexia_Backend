@@ -10,6 +10,7 @@ import time
 # Local Scripts
 from compare import StringComparator
 from validator import ResponseValidator
+from modules import eval_survey
 
 Storage = []
 
@@ -153,6 +154,35 @@ def get_survey_json(lang_code, age_grp):
         return json_txt, 404
 
     return json_txt, 200
+
+# POST Survey answers - calculate and return score + recommendation
+
+
+@app.route("/survey",  methods=['POST'])
+def eval_survey_answers():
+    data = request.get_json()
+    threshold = 70
+    print(data)
+    agegroup = data['age_group']
+    num_responses = len(data["selectedOptions"])
+    best_score = num_responses * 1
+    worst_score = num_responses * 5
+
+    threshold = worst_score * 0.70
+    print(f"{num_responses} responses from {agegroup} agegroup. Threshold: {threshold}")
+
+    if agegroup == "3-5":
+        result = eval_survey.eval_agegroup1(data, threshold)
+    if agegroup == "5-8":
+        result = eval_survey.eval_agegroup2(data, threshold)
+    if agegroup == "8-12":
+        result = eval_survey.eval_agegroup3(data, threshold)
+    print(f"Score:{result}")
+
+    user_msg = eval_survey.get_eval_message(data, result)
+    result["msg"] = user_msg
+
+    return jsonify(result)
 
 
 if __name__ == "__main__":
