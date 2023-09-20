@@ -5,6 +5,7 @@ import uuid
 import requests
 import json
 import time
+import psycopg2
 
 
 # Local Scripts
@@ -130,7 +131,7 @@ def submitEntryForm():
 
 @app.route("/survey/<lang_code>/<age_grp>", methods=['GET'])
 def get_survey_json(lang_code, age_grp):
-    print("hit")
+    print("hit", lang_code, age_grp)
     json_txt = None
     json_path = "./assets/"
     filename = f"survey/{lang_code}/{age_grp}.json"
@@ -177,10 +178,65 @@ def eval_survey_answers():
         result = eval_survey.eval_agegroup2(data, threshold)
     if agegroup == "8-12":
         result = eval_survey.eval_agegroup3(data, threshold)
+
     print(f"Score:{result}")
 
     user_msg = eval_survey.get_eval_message(data, result)
     result["msg"] = user_msg
+
+    print("sadfsadfasdfasdfasdfasdf", result)
+    # Replace these values with your actual database connection details
+    db_params = {
+        "dbname": "postgres",
+        "user": "myusername",
+        "password": "mypassword",
+        "host": "127.0.0.1",
+        "port": "5432"
+    }
+
+    # {'selectedOptions': {'1': 1, '2': 1, '3': 1, '4': 1, '5': 1, '6': 1, '7': 1, '8': 1, '9': 1, '10': 1, '11': 1, '12': 1, '13': 1, '14': 1, '15': 1,
+    #                      '16': 1, '17': 1, '18': 1, '19': 1, '20': 1, '21': 1}, 'age_group': '3-5', 'child_name': 'bh', 'language': 'Hindi', 'email': 'bhuvansa@icloud.com'}
+
+    # Data to be inserted
+    print("before", result['score'])
+    dbdata = {
+        'selectedOptions': data['selectedOptions'],
+        'age_group': data['age_group'],
+        'child_name': data['child_name'],
+        'language': data['language'],
+        'email': data['email'],
+        'score': result['score'],
+        'action': 'ok',
+        'msg': result["msg"]
+    }
+
+    try:
+        # Connect to the database
+        conn = psycopg2.connect(**db_params)
+        print("worked")
+
+        # Create a cursor object
+        cursor = conn.cursor()
+
+        # Insert data into the user_data table
+        cursor.execute(
+            "INSERT INTO user_data (name, language, age_group, email, risk, score) VALUES (%s, %s, %s, %s, %s, %s)",
+            (dbdata['child_name'], dbdata['language'],
+             dbdata['age_group'], dbdata['email'], dbdata['msg'], dbdata['score'])
+        )
+
+        # Commit the transaction
+        conn.commit()
+
+        print("Data inserted successfully!")
+
+    except Exception as e:
+        print(f"Error: {e}")
+
+    finally:
+        # Close the cursor and connection
+        cursor.close()
+        conn.close()
 
     return jsonify(result)
 
