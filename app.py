@@ -172,8 +172,8 @@ def eval_survey_answers():
     worst_score = num_responses * 5
 
     threshold = worst_score * 0.70
-    print(f"{num_responses} responses from {
-          agegroup} agegroup. Threshold: {threshold}")
+    print(f"""{num_responses} responses from
+          {agegroup} agegroup. Threshold: {threshold}""")
 
     if agegroup == "3-5":
         result = eval_survey.eval_agegroup1(data, threshold)
