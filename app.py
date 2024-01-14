@@ -71,8 +71,8 @@ def transcribe():
     response = requests.post(url, json=data, headers=headers)
 
     transcript_id = response.json()["id"]
-    polling_endpoint = f"https://api.assemblyai.com/v2/transcript/{
-        transcript_id}"
+    polling_endpoint = f"""https://api.assemblyai.com/v2/transcript/
+    {transcript_id}"""
 
     while True:
         transcription_result = requests.get(
