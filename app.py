@@ -1,9 +1,9 @@
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from waitress import serve
 import uuid
 import requests
-import json
 import time
 import psycopg2
 
@@ -242,4 +242,4 @@ def eval_survey_answers():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    serve(app, threads=2)

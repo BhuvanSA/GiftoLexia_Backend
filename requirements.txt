@@ -1,0 +1,6 @@
+flask
+Flask_Cors
+uuid
+psycopg2-binary
+requests
+waitress
