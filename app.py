@@ -71,7 +71,8 @@ def transcribe():
     response = requests.post(url, json=data, headers=headers)
 
     transcript_id = response.json()["id"]
-    polling_endpoint = f"https://api.assemblyai.com/v2/transcript/{transcript_id}"
+    polling_endpoint = f"https://api.assemblyai.com/v2/transcript/{
+        transcript_id}"
 
     while True:
         transcription_result = requests.get(
@@ -106,7 +107,8 @@ def calculate():
     misspelled_words = comparator.find_misspelled_words()
 
     global cal
-    cal = f"Error Rate: {error_rate:.2f}% | Misspelled Words: {misspelled_words}"
+    cal = f"Error Rate: {error_rate:.2f}% | Misspelled Words: {
+        misspelled_words}"
 
     return jsonify({"expected": expectedTranscription, "actual": actualTranscription, "calculate": cal})
 
@@ -131,12 +133,12 @@ def submitEntryForm():
 
 @app.route("/survey/<lang_code>/<age_grp>", methods=['GET'])
 def get_survey_json(lang_code, age_grp):
-    print("hit", lang_code, age_grp)
+    # print("hit", lang_code, age_grp)
     json_txt = None
     json_path = "./assets/"
     filename = f"survey/{lang_code}/{age_grp}.json"
     full_path = os.path.join(json_path, filename)
-    print(f"Retrieving survey questions: {full_path}")
+    # print(f"Retrieving survey questions: {full_path}")
     try:
         # try to open the file
         assert os.path.isfile(
@@ -145,8 +147,8 @@ def get_survey_json(lang_code, age_grp):
         json_txt = fh.read()
         fh.close()
 
-        print(json_txt)
-        print(type(json_txt))
+        # print(json_txt)
+        # print(type(json_txt))
     except AssertionError as ae:
         print(ae)
         return json_txt, 404
@@ -170,7 +172,8 @@ def eval_survey_answers():
     worst_score = num_responses * 5
 
     threshold = worst_score * 0.70
-    print(f"{num_responses} responses from {agegroup} agegroup. Threshold: {threshold}")
+    print(f"{num_responses} responses from {
+          agegroup} agegroup. Threshold: {threshold}")
 
     if agegroup == "3-5":
         result = eval_survey.eval_agegroup1(data, threshold)
