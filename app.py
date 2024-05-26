@@ -17,12 +17,18 @@ Storage = []
 
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
+cors = CORS(app, resources={r"*": {"origins": "*"}})
+
 
 UPLOAD_FOLDER = "uploads"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-expectedTranscription = "Once upon a time, there was a little girl named Alice who lived in a small town. One day, Alice was walking in the woods when she came across a strange hole in the ground. Alice was curious, so she decided to climb down the hole. When she reached the bottom, Alice found herself in a strange and wonderful world called wonderland."
+expectedTranscription = """
+Once upon a time, there was a little girl named Alice who lived in a small town. 
+One day, Alice was walking in the woods when she came across a strange hole in the ground. 
+Alice was curious, so she decided to climb down the hole. When she reached the bottom,
+Alice found herself in a strange and wonderful world called wonderland.
+"""
 actualTranscription = "Your transcipt goes here"
 cal = "Error Rate:"
 
@@ -141,20 +147,20 @@ def get_survey_json(lang_code, age_grp):
         # try to open the file
         assert os.path.isfile(
             full_path), f"Requested json file {full_path} not found"
-        fh = open(full_path, "r")
-        json_txt = fh.read()
-        fh.close()
+
+        with open(full_path) as f:
+            return f.read(), 200
 
         # print(json_txt)
         # print(type(json_txt))
     except AssertionError as ae:
         print(ae)
         return json_txt, 404
+
     except Exception as e:
         print(f"Error:{e}")
         return json_txt, 404
 
-    return json_txt, 200
 
 # POST Survey answers - calculate and return score + recommendation
 
@@ -185,20 +191,17 @@ def eval_survey_answers():
     result["msg"] = user_msg
 
     print("sadfsadfasdfasdfasdfasdf", result)
-    # Replace these values with your actual database connection details
+
+    # Connect to database to enter the values
     db_params = {
-        "dbname": "postgres",
-        "user": "myusername",
-        "password": "mypassword",
+        "dbname": "giftolexia-postgres",
+        "user": "bhuvansa",
+        "password": "giftolexia",
         "host": "127.0.0.1",
         "port": "5432"
     }
 
-    # {'selectedOptions': {'1': 1, '2': 1, '3': 1, '4': 1, '5': 1, '6': 1, '7': 1, '8': 1, '9': 1, '10': 1, '11': 1, '12': 1, '13': 1, '14': 1, '15': 1,
-    #                      '16': 1, '17': 1, '18': 1, '19': 1, '20': 1, '21': 1}, 'age_group': '3-5', 'child_name': 'bh', 'language': 'Hindi', 'email': 'bhuvansa@icloud.com'}
-
     # Data to be inserted
-    print("before", result['score'])
     dbdata = {
         'selectedOptions': data['selectedOptions'],
         'age_group': data['age_group'],
@@ -218,28 +221,38 @@ def eval_survey_answers():
         # Create a cursor object
         cursor = conn.cursor()
 
+        # Execute the SQL statement to create the table
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS user_data (
+                id SERIAL PRIMARY KEY,
+                child_name TEXT,
+                language TEXT,
+                age_group TEXT,
+                email TEXT,
+                msg TEXT,
+                score INTEGER
+            )
+        """)
+
         # Insert data into the user_data table
         cursor.execute(
-            "INSERT INTO user_data (name, language, age_group, email, risk, score) VALUES (%s, %s, %s, %s, %s, %s)",
+            "INSERT INTO user_data (child_name, language, age_group, email, msg, score) VALUES (%s, %s, %s, %s, %s, %s)",
             (dbdata['child_name'], dbdata['language'],
              dbdata['age_group'], dbdata['email'], dbdata['msg'], dbdata['score'])
         )
 
         # Commit the transaction
+        cursor.close()
         conn.commit()
+        conn.close()
 
         print("Data inserted successfully!")
 
     except Exception as e:
         print(f"Error: {e}")
 
-    finally:
-        # Close the cursor and connection
-        cursor.close()
-        conn.close()
-
     return jsonify(result)
 
 
 if __name__ == "__main__":
-    serve(app, threads=2)
+    app.run()
