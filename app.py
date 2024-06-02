@@ -6,18 +6,21 @@ import uuid
 import requests
 import time
 import psycopg2
-
+from dotenv import load_dotenv
 
 # Local Scripts
 from compare import StringComparator
 from validator import ResponseValidator
 from modules import eval_survey
 
+
+# Load the .env file
+load_dotenv()
 Storage = []
 
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"*": {"origins": "*"}})
+cors = CORS(app)
 
 
 UPLOAD_FOLDER = "uploads"
@@ -117,6 +120,11 @@ def calculate():
     return jsonify({"expected": expectedTranscription, "actual": actualTranscription, "calculate": cal})
 
 
+@app.route("/hello", methods=["GET"])
+def hello():
+    return "Hello Worldj"
+
+
 @app.route("/submitEntryForm", methods=["POST"])
 def submitEntryForm():
     response = request.get_json()
@@ -194,11 +202,11 @@ def eval_survey_answers():
 
     # Connect to database to enter the values
     db_params = {
-        "dbname": "giftolexia-postgres",
-        "user": "bhuvansa",
-        "password": "giftolexia",
-        "host": "127.0.0.1",
-        "port": "5432"
+        "dbname": os.getenv("DBNAME"),
+        "user": os.getenv("USER"),
+        "password": os.getenv("PASSWORD"),
+        "host": os.getenv("HOST"),
+        "port": os.getenv("PORT")
     }
 
     # Data to be inserted
@@ -255,4 +263,4 @@ def eval_survey_answers():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8081, debug=True)

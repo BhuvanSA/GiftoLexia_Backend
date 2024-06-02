@@ -4,3 +4,4 @@ uuid
 psycopg2-binary
 requests
 waitress
+python-dotenv
